@@ -6,7 +6,7 @@ function AboutMe() {
 
   return (
     <>
-      <h1 className="bg-pink-50 text-purple-600">About Me!</h1>
+      <h1 className="bg-pink-50 text-purple-600">{text.about}!</h1>
       <TrustedHtml html={text.aboutPara} />
     </>
   );

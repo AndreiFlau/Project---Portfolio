@@ -1,9 +1,8 @@
+import useLangText from "../hooks/useLangText";
+
 function Footer() {
-  return (
-    <>
-      <h1>Footer</h1>
-    </>
-  );
+  const text = useLangText();
+  return <>{text.footer}.</>;
 }
 
 export default Footer;

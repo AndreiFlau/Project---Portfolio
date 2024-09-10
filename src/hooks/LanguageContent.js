@@ -12,6 +12,27 @@ export const languages = {
         <br />
         Being this obscessed with computers made me get a degree in Information Technology. And since then, I have been improving
         my programming skills, playing around with projects, and learning new technologies whenever possible.</p>`,
+    myStack: "Stack of Technologies",
+    project1Title: "Blog",
+    project1Description:
+      "<p>A Full-Stack blog that lets you create an account, read the posted blogs, comment, and much more! <br/> Made with Express, React, and Prisma. </p>",
+    project2Title: "Web store",
+    project2Description: "<p>A Front-End store that lets you shop and buy fake items. <br/> Made with React. </p>",
+    project3Title: "Memory Game",
+    project3Description: "<p>A Front-End memory game based on the Pokémon series. <br/> Made with React. </p>",
+    project4Title: "Cloud Storage",
+    project4Description:
+      "<p>A Back-End cloud storage website based on Google Drive, where users can upload any file and store them remotely. <br/> Made with Express and EJS. </p>",
+    project5Title: "Homepage",
+    project5Description:
+      "<p>A Front-End homepage website that showcases Frodo's portfolio. <br/> Made with plain HTML and CSS. </p>",
+    project6Title: "Battleship",
+    project6Description: "<p>A Front-End game of Battleship. <br/> Made with plain HTML, JS, and CSS. </p>",
+    contactMe: "Interested in working with me? Send me an email",
+    contactMe2: "Or contact me on my social media",
+    contactSubject: "Subject",
+    contactMessage: "Message",
+    footer: "© Andrei Flausino 2024",
   },
 
   pt: {
@@ -30,5 +51,26 @@ export const languages = {
         Sistemas. E desde então, eu continuo a melhorar como programador, estudando, criando projetos, e aprendendo novas
         tecnologias sempre que possível.
       </p>`,
+    myStack: "Meu stack de tecnologias.",
+    project1Title: "Blog",
+    project1Description:
+      "<p>Um blog Full-Stack que deixa o usuário criar uma conta, ler os blogs postados, comentar, and muito mais! <br/> Feito com Express, React, e Prisma. </p>",
+    project2Title: "Loja Virtual",
+    project2Description:
+      "<p>Uma loja Front-End que deixa o usuário explorar e comprar items fictícios. <br/> Feito com React. </p>",
+    project3Title: "Jogo da Memória",
+    project3Description: "<p>Um jogo da memória Front-End baseado na série Pokémon. <br/> Feito com React. </p>",
+    project4Title: "Armazenamento em nuvem",
+    project4Description:
+      "<p>Um site Back-End baseado no Google Drive, onde o usuário pode fazer o upload de qualquer arquivo e armazená-lo remotamente. <br/> Feito com Express e EJS. </p>",
+    project5Title: "Portfólio",
+    project5Description: "<p>Um site Front-End com o portfólio do Frodo. <br/> Feito com apenas HTML e CSS. </p>",
+    project6Title: "Batalha Naval",
+    project6Description: "<p>Um jogo de Batalha Naval Front-End. <br/> Feito com apenas HTML, JS, e CSS. </p>",
+    contactMe: "Interessado em trabalhar comigo? Me mande um email",
+    contactMe2: "Ou me contate pelas mídias digitais",
+    contactSubject: "Assunto",
+    contactMessage: "Mensagem",
+    footer: "© Andrei Flausino 2024",
   },
 };
