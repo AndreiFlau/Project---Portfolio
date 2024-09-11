@@ -27,7 +27,7 @@ function ContactMe() {
     setSentEmail(true);
   };
   return (
-    <>
+    <div id="contact-me">
       <h1>{text.contactMe}:</h1>
 
       {sentEmail ? (
@@ -48,7 +48,7 @@ function ContactMe() {
       <a href="https://www.linkedin.com/in/andrei-flausino-67399b294/">
         <i className="devicon-linkedin-plain"></i>
       </a>
-    </>
+    </div>
   );
 }
 

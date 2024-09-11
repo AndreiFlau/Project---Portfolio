@@ -6,6 +6,7 @@ export const LanguageContext = React.createContext();
 
 export function LanguageProvider({ children }) {
   const [language, setLanguage] = useState("en");
+  const [countryIconSrc, setCountryIconSrc] = useState("");
 
   useEffect(() => {
     const savedLang = localStorage.getItem("language");
@@ -16,14 +17,28 @@ export function LanguageProvider({ children }) {
       const browserLang = navigator.language.split("-")[0];
       setLanguage(languages[browserLang] ? browserLang : "en");
     }
-  }, []);
+
+    if (language === "en") {
+      setCountryIconSrc("/imgs/flag_usa.svg");
+    } else if (language === "pt") {
+      setCountryIconSrc("/imgs/flag_brazil.svg");
+    }
+  }, [language, setCountryIconSrc]);
 
   function changeLanguage(lang) {
     setLanguage(lang);
     localStorage.setItem("language", lang);
   }
 
-  return <LanguageContext.Provider value={{ language, changeLanguage }}>{children}</LanguageContext.Provider>;
+  function changeCountryIconSrc(country) {
+    setCountryIconSrc(country);
+  }
+
+  return (
+    <LanguageContext.Provider value={{ language, changeLanguage, countryIconSrc, changeCountryIconSrc }}>
+      {children}
+    </LanguageContext.Provider>
+  );
 }
 
 LanguageProvider.propTypes = {

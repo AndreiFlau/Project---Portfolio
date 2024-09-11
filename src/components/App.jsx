@@ -1,5 +1,4 @@
 import "../styles/App.css";
-
 import Header from "./Header";
 import Footer from "./Footer";
 import AboutMe from "./AboutMe";
@@ -10,7 +9,7 @@ import { LanguageProvider } from "../hooks/LanguageProvider";
 
 function App() {
   return (
-    <>
+    <div className="text-lg text-blue-500">
       <LanguageProvider>
         <Header />
         <AboutMe />
@@ -19,7 +18,7 @@ function App() {
         <ContactMe />
         <Footer />
       </LanguageProvider>
-    </>
+    </div>
   );
 }
 

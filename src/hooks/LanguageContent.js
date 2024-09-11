@@ -12,7 +12,8 @@ export const languages = {
         <br />
         Being this obscessed with computers made me get a degree in Information Technology. And since then, I have been improving
         my programming skills, playing around with projects, and learning new technologies whenever possible.</p>`,
-    myStack: "Stack of Technologies",
+    myStack: "Tech Stack",
+    myProjects: "My Projects",
     project1Title: "Blog",
     project1Description:
       "<p>A Full-Stack blog that lets you create an account, read the posted blogs, comment, and much more! <br/> Made with Express, React, and Prisma. </p>",
@@ -28,6 +29,7 @@ export const languages = {
       "<p>A Front-End homepage website that showcases Frodo's portfolio. <br/> Made with plain HTML and CSS. </p>",
     project6Title: "Battleship",
     project6Description: "<p>A Front-End game of Battleship. <br/> Made with plain HTML, JS, and CSS. </p>",
+    otherProjs: "See my other projects on",
     contactMe: "Interested in working with me? Send me an email",
     contactMe2: "Or contact me on my social media",
     contactSubject: "Subject",
@@ -51,7 +53,8 @@ export const languages = {
         Sistemas. E desde então, eu continuo a melhorar como programador, estudando, criando projetos, e aprendendo novas
         tecnologias sempre que possível.
       </p>`,
-    myStack: "Meu stack de tecnologias.",
+    myStack: "Meu Stack De Tecnologias",
+    myProjects: "Meus Projetos",
     project1Title: "Blog",
     project1Description:
       "<p>Um blog Full-Stack que deixa o usuário criar uma conta, ler os blogs postados, comentar, and muito mais! <br/> Feito com Express, React, e Prisma. </p>",
@@ -67,6 +70,7 @@ export const languages = {
     project5Description: "<p>Um site Front-End com o portfólio do Frodo. <br/> Feito com apenas HTML e CSS. </p>",
     project6Title: "Batalha Naval",
     project6Description: "<p>Um jogo de Batalha Naval Front-End. <br/> Feito com apenas HTML, JS, e CSS. </p>",
+    otherProjs: "Veja os meus outros projetos no",
     contactMe: "Interessado em trabalhar comigo? Me mande um email",
     contactMe2: "Ou me contate pelas mídias digitais",
     contactSubject: "Assunto",

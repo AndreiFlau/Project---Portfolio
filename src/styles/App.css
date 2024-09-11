@@ -1,3 +1,45 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html,
+body {
+  @apply mt-2 mb-2 bg-teal-50;
+  font-family: "Jost";
+}
+
+#header {
+  box-shadow: #00000045 0px 10px 10px -8px;
+}
+
+mark {
+  background: none !important;
+  color: inherit;
+  @apply font-semibold
+}
+
+i {
+  font-size: 4rem;
+  /* @apply text-6 */
+}
+
+svg {
+  width: 67px;
+  height: 67px;
+}
+
+#projects img {
+  width: 100%;
+  height: 375px;
+  object-fit: cover;
+  display: block;
+}
+
+#projects svg {
+  width: 42px;
+  height: 42px;
+}
+
+#projects i {
+  font-size: 2.5rem;
+}

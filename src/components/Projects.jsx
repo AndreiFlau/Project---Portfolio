@@ -4,21 +4,25 @@ import TrustedHtml from "./TrustedHtml";
 function Projects() {
   const text = useLangText();
   return (
-    <>
-      <h1>My Projects</h1>
-      <div id="projects">
+    <div className="flex flex-col mt-10 mr-10 ml-10 p-10" id="projects">
+      <h1 className="self-center text-xl font-semibold">{text.myProjects}</h1>
+      <div className="grid grid-cols-2 gap-16 self-center mt-10">
         <div>
           <img src="/imgs/blogimg.png" alt="Picture of the blog homepage" />
-          <h3>{text.project1Title}</h3>
-          <a href="https://github.com/AndreiFlau/Project---Blog-Api-Frontend">
-            <i className="devicon-github-original colored"></i>
-          </a>
-          <a href="https://project-blog-api-frontend.vercel.app/">
-            <svg className="">
-              <use xlinkHref="#redirect"></use>
-            </svg>
-          </a>
-          <TrustedHtml html={text.project1Description} />
+          <div className="p-4">
+            <div className="flex items-center gap-3">
+              <h3 className="mr-auto  font-semibold">{text.project1Title}</h3>
+              <a href="https://github.com/AndreiFlau/Project---Blog-Api-Frontend">
+                <i className="devicon-github-original colored"></i>
+              </a>
+              <a href="https://project-blog-api-frontend.vercel.app/">
+                <svg className="">
+                  <use xlinkHref="#redirect"></use>
+                </svg>
+              </a>
+            </div>
+            <TrustedHtml html={text.project1Description} />
+          </div>
         </div>
         <div>
           <img src="/imgs/store.png" alt="Picture of the store homepage" />
@@ -86,8 +90,13 @@ function Projects() {
           <TrustedHtml html={text.project6Description} />
         </div>
       </div>
-      <h1>See the rest on my github</h1>
-    </>
+      <h1>
+        {text.otherProjs}{" "}
+        <a href="https://github.com/">
+          <i className="devicon-github-original colored text-2xl"></i>
+        </a>
+      </h1>
+    </div>
   );
 }
 
