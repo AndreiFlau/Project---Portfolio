@@ -51,7 +51,7 @@ function ContactMe() {
             ></textarea>
           </div>
           <button type="submit" className="w-fit justify-self-center">
-            Send
+            {text.sendBtn}
           </button>
         </form>
       )}

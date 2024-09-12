@@ -34,6 +34,7 @@ export const languages = {
     contactMe2: "Or contact me on my social media",
     contactSubject: "Subject",
     contactMessage: "Message",
+    sendBtn: "Send",
     footer: "© Andrei Flausino 2024",
   },
 
@@ -75,6 +76,7 @@ export const languages = {
     contactMe2: "Ou me contate pelas mídias digitais",
     contactSubject: "Assunto",
     contactMessage: "Mensagem",
+    sendBtn: "Enviar",
     footer: "© Andrei Flausino 2024",
   },
 };

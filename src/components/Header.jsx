@@ -36,7 +36,7 @@ function Header() {
   // gap: 80px;
 
   return (
-    <div className="w-full fixed top-0 p-2 bg-blue-50 md:static md:bg-transparent" id="header">
+    <div className="w-full fixed top-0 p-2 bg-blue-50 md:static md:bg-transparent z-10" id="header">
       <div className="flex gap-3 ml-12 mr-12 items-center font-semibold text-x">
         <h1 className="mr-auto">Andrei Flausino</h1>
         <div

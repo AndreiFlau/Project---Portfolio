@@ -13,7 +13,7 @@ function Projects() {
             alt="Picture of the blog homepage"
             className="transition-transform duration-300 ease-in-out hover:scale-105 will-change-transform"
           />
-          <div className="p-4">
+          <div className="p-4 flex flex-col gap-3">
             <div className="flex items-center gap-3 ">
               <h3 className="mr-auto  font-semibold">{text.project1Title}</h3>
               <a href="https://github.com/AndreiFlau/Project---Blog-Api-Frontend">
@@ -34,7 +34,7 @@ function Projects() {
             alt="Picture of the store homepage"
             className="transition-transform duration-300 ease-in-out hover:scale-105 will-change-transform"
           />
-          <div className="p-4">
+          <div className="p-4 flex flex-col gap-3">
             <div className="flex items-center gap-3">
               <h3 className="mr-auto  font-semibold">{text.project2Title}</h3>
               <a href="https://github.com/AndreiFlau/Project---Shopping-Cart">
@@ -55,7 +55,7 @@ function Projects() {
             alt="Picture of the pokémon memory game"
             className="transition-transform duration-300 ease-in-out hover:scale-105 will-change-transform"
           />
-          <div className="p-4">
+          <div className="p-4 flex flex-col gap-3">
             <div className="flex items-center gap-3">
               <h3 className="mr-auto  font-semibold">{text.project3Title}</h3>
               <a href="https://github.com/AndreiFlau/PokemonMemoryCard">
@@ -76,7 +76,7 @@ function Projects() {
             alt="Picture of my google drive clone"
             className="transition-transform duration-300 ease-in-out hover:scale-105 will-change-transform"
           />
-          <div className="p-4">
+          <div className="p-4 flex flex-col gap-3">
             <div className="flex items-center gap-3">
               <h3 className="mr-auto  font-semibold">{text.project4Title}</h3>
               <a href="https://github.com/AndreiFlau/Project---File-Uploader">
@@ -97,7 +97,7 @@ function Projects() {
             alt="Picture of Frodo's homepage"
             className="transition-transform duration-300 ease-in-out hover:scale-105 will-change-transform"
           />
-          <div className="p-4">
+          <div className="p-4 flex flex-col gap-3">
             <div className="flex items-center gap-3">
               <h3 className="mr-auto  font-semibold">{text.project5Title}</h3>
               <a href="https://github.com/AndreiFlau/Project---Homepage">
@@ -118,7 +118,7 @@ function Projects() {
             alt="Picture of my battleship game"
             className="transition-transform duration-300 ease-in-out hover:scale-105 will-change-transform"
           />
-          <div className="p-4">
+          <div className="p-4 flex flex-col gap-3">
             <div className="flex items-center gap-3">
               <h3 className="mr-auto  font-semibold">{text.project6Title}</h3>
               <a href="https://github.com/AndreiFlau/Project---Battleship">
