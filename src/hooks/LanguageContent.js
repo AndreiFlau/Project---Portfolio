@@ -3,7 +3,7 @@ export const languages = {
     about: "About Me",
     projects: "Projects",
     contact: "Contact Me",
-    aboutPara: `<p>Hello! 👋🏻 I&apos;m Andrei Flausino, a South American <mark>Full-Stack Web Developer</mark> who enjoys creating fun and
+    aboutPara: `<p>Hello! 👋🏻 I&apos;m Andrei Flausino, a Brazilian <mark>Full-Stack Web Developer</mark> who enjoys creating fun and
         interactive webapps. <br />
         <br />
         I&apos;ve always been passionate about computers since I was young. I vivdly remember constantly messing around with my
@@ -42,7 +42,7 @@ export const languages = {
     projects: "Projetos",
     contact: "Me Contate",
     aboutPara: `<p>
-        Olá! 👋🏻 Eu sou Andrei Flausino, <mark>Desenvolvedor Web Full-Stack</mark> Sul-americano. Eu adoro criar websites
+        Olá! 👋🏻 Sou Andrei Flausino, um <mark>Desenvolvedor Web Full-Stack</mark>. Eu adoro criar websites
         divertidos e interativos.
         <br />
         <br />

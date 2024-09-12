@@ -27,27 +27,34 @@ function ContactMe() {
     setSentEmail(true);
   };
   return (
-    <div id="contact-me">
-      <h1>{text.contactMe}:</h1>
-
+    <div className="flex flex-col mt-10 mr-10 ml-10 p-10" id="contact-me">
+      <h1 className="self-center mb-10 font-semibold">{text.contactMe}!</h1>
       {sentEmail ? (
-        <h1>Thanks for contacting me :)</h1>
+        <h1 className="self-center mt-20">Thanks for contacting me :)</h1>
       ) : (
-        <form ref={form} onSubmit={sendEmail}>
-          {text.contactSubject}:
-          <input type="text" name="subject" placeholder={text.contactSubject} />
-          Email:
-          <input type="email" name="email" placeholder="email@gmail.com" />
-          {text.contactMessage}:<textarea name="body" rows="5" cols="30" placeholder={text.contactMessage}></textarea>
-          <input type="submit" value="Send" />
+        <form ref={form} onSubmit={sendEmail} className="grid grid-cols-1 gap-y-6">
+          <div className="grid md:grid-cols-2 gap-x-16 gap-y-4">
+            {text.contactSubject}:
+            <input type="text" name="subject" placeholder={text.contactSubject} required />
+            <p className="md:row-start-1 md:col-start-2 ">Email:</p>
+            <input type="email" name="email" placeholder="email@gmail.com" required />
+          </div>
+          <div className="flex flex-col gap-4">
+            {text.contactMessage}:
+            <textarea
+              name="body"
+              rows="5"
+              cols="30"
+              placeholder={text.contactMessage}
+              required
+              className="resize-none"
+            ></textarea>
+          </div>
+          <button type="submit" className="w-fit justify-self-center">
+            Send
+          </button>
         </form>
       )}
-      <a href="https://github.com/AndreiFlau">
-        <i className="devicon-github-original colored"></i>
-      </a>
-      <a href="https://www.linkedin.com/in/andrei-flausino-67399b294/">
-        <i className="devicon-linkedin-plain"></i>
-      </a>
     </div>
   );
 }
