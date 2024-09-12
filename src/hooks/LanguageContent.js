@@ -6,11 +6,11 @@ export const languages = {
     aboutPara: `<p>Hello! 👋🏻 I&apos;m Andrei Flausino, a Brazilian <mark>Full-Stack Web Developer</mark> who enjoys creating fun and
         interactive webapps. <br />
         <br />
-        I&apos;ve always been passionate about computers since I was young. I vivdly remember constantly messing around with my
-        dad&apos;s Windows XP. When I got a bit older I got into modding video games, configuring them to play the way I wanted
+        I&apos;ve always been passionate about computers since I was young. I vividly remember constantly messing around with my
+        dad&apos;s Windows XP. When I got a bit older I got into modding video games, configuring them to play how I wanted
         them to.
         <br />
-        Being this obscessed with computers made me get a degree in Information Technology. And since then, I have been improving
+        Being this obsessed with computers made me get a degree in Information Technology. Since then, I have been improving
         my programming skills, playing around with projects, and learning new technologies whenever possible.</p>`,
     myStack: "Tech Stack",
     myProjects: "My Projects",
@@ -47,7 +47,7 @@ export const languages = {
         divertidos e interativos.
         <br />
         <br />
-        Eu sempre gostei de computadores, lembro que quando era pequeno, eu adorava fuçar nos arquivos que meu pai tinha guardado
+        Eu sempre gostei de computadores. lembro que quando era pequeno, eu adorava fuçar nos arquivos que meu pai tinha guardado
         no Windows XP. Quando um pouco mais velho, comecei a gostar de modificar os jogos que eu baixava, configurando-os de
         acordo com a minha preferência. <br />
         Sendo obcecado por computadores me fez eventualmente cursar e obter o diploma de tecnólogo em Análise e Desenvolvimento de

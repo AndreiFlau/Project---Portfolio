@@ -1,8 +1,14 @@
-# React + Vite
+# My Portfolio Website :)
 
-Custom template.
+My personal website! It was made with React and Tailwind.
 
-Just run these commands: <br>
-npm install react react-dom && \
-npm install --save-dev @types/react @types/react-dom @vitejs/plugin-react eslint eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-react-refresh vite && \
-npm run dev
+![website](public/imgs/portfolio.png)
+
+## Installation
+
+Simply clone the repo and run the commands below.
+
+```powershell
+  npm install
+  npm run dev
+```
