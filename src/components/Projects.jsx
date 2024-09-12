@@ -7,10 +7,14 @@ function Projects() {
     <div className="flex flex-col mt-10 mr-10 ml-10 p-10" id="projects">
       <h1 className="self-center text-xl font-semibold">{text.myProjects}</h1>
       <div className="grid grid-cols-1 gap-16 self-center mt-10 md:grid-cols-2">
-        <div>
-          <img src="/imgs/blogimg.png" alt="Picture of the blog homepage" />
+        <div className="border-2 border-blue-600 border-solid overflow-hidden">
+          <img
+            src="/imgs/blogimg.png"
+            alt="Picture of the blog homepage"
+            className="transition-transform duration-300 ease-in-out hover:scale-105 will-change-transform"
+          />
           <div className="p-4">
-            <div className="flex items-center gap-3">
+            <div className="flex items-center gap-3 ">
               <h3 className="mr-auto  font-semibold">{text.project1Title}</h3>
               <a href="https://github.com/AndreiFlau/Project---Blog-Api-Frontend">
                 <i className="devicon-github-original colored"></i>
@@ -24,8 +28,12 @@ function Projects() {
             <TrustedHtml html={text.project1Description} />
           </div>
         </div>
-        <div>
-          <img src="/imgs/store.png" alt="Picture of the store homepage" />
+        <div className="border-2 border-blue-600 border-solid overflow-hidden">
+          <img
+            src="/imgs/store.png"
+            alt="Picture of the store homepage"
+            className="transition-transform duration-300 ease-in-out hover:scale-105 will-change-transform"
+          />
           <div className="p-4">
             <div className="flex items-center gap-3">
               <h3 className="mr-auto  font-semibold">{text.project2Title}</h3>
@@ -41,8 +49,12 @@ function Projects() {
             <TrustedHtml html={text.project2Description} />
           </div>
         </div>
-        <div>
-          <img src="/imgs/pokemon.png" alt="Picture of the pokémon memory game" />
+        <div className="border-2 border-blue-600 border-solid overflow-hidden">
+          <img
+            src="/imgs/pokemon.png"
+            alt="Picture of the pokémon memory game"
+            className="transition-transform duration-300 ease-in-out hover:scale-105 will-change-transform"
+          />
           <div className="p-4">
             <div className="flex items-center gap-3">
               <h3 className="mr-auto  font-semibold">{text.project3Title}</h3>
@@ -58,8 +70,12 @@ function Projects() {
             <TrustedHtml html={text.project3Description} />
           </div>
         </div>
-        <div>
-          <img src="/imgs/noodledrive.png" alt="Picture of my google drive clone" />
+        <div className="border-2 border-blue-600  border-solid overflow-hidden">
+          <img
+            src="/imgs/noodledrive.png"
+            alt="Picture of my google drive clone"
+            className="transition-transform duration-300 ease-in-out hover:scale-105 will-change-transform"
+          />
           <div className="p-4">
             <div className="flex items-center gap-3">
               <h3 className="mr-auto  font-semibold">{text.project4Title}</h3>
@@ -75,8 +91,12 @@ function Projects() {
             <TrustedHtml html={text.project4Description} />
           </div>
         </div>
-        <div>
-          <img src="/imgs/homepage.png" alt="Picture of Frodo's homepage" />
+        <div className="border-2 border-blue-600 border-solid overflow-hidden">
+          <img
+            src="/imgs/homepage.png"
+            alt="Picture of Frodo's homepage"
+            className="transition-transform duration-300 ease-in-out hover:scale-105 will-change-transform"
+          />
           <div className="p-4">
             <div className="flex items-center gap-3">
               <h3 className="mr-auto  font-semibold">{text.project5Title}</h3>
@@ -92,8 +112,12 @@ function Projects() {
             <TrustedHtml html={text.project5Description} />
           </div>
         </div>
-        <div>
-          <img src="/imgs/battleshipscreenshot.png" alt="Picture of my battleship game" />
+        <div className="border-2 border-blue-600 border-solid overflow-hidden">
+          <img
+            src="/imgs/battleshipscreenshot.png"
+            alt="Picture of my battleship game"
+            className="transition-transform duration-300 ease-in-out hover:scale-105 will-change-transform"
+          />
           <div className="p-4">
             <div className="flex items-center gap-3">
               <h3 className="mr-auto  font-semibold">{text.project6Title}</h3>
