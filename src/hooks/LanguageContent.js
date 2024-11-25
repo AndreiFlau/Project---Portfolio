@@ -58,7 +58,7 @@ export const languages = {
     myProjects: "Meus Projetos",
     project1Title: "Blog",
     project1Description:
-      "<p>Um blog Full-Stack que deixa o usuário criar uma conta, ler os blogs postados, comentar, and muito mais! <br/> Feito com Express, React, e Prisma. </p>",
+      "<p>Um blog Full-Stack que deixa o usuário criar uma conta, ler os blogs postados, comentar, e muito mais! <br/> Feito com Express, React, e Prisma. </p>",
     project2Title: "Loja Virtual",
     project2Description:
       "<p>Uma loja Front-End que deixa o usuário explorar e comprar items fictícios. <br/> Feito com React. </p>",
