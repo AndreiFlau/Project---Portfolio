@@ -9,7 +9,7 @@ function Footer() {
         <a href="https://github.com/AndreiFlau">
           <i className="devicon-github-original colored"></i>
         </a>
-        <a href="https://www.linkedin.com/in/andrei-flausino-67399b294/">
+        <a href="https://www.linkedin.com/in/andreiflausino/">
           <i className="devicon-linkedin-plain"></i>
         </a>
       </div>
