@@ -6,6 +6,7 @@ html,
 body {
   @apply bg-teal-50;
   font-family: "Jost";
+  scroll-behavior: smooth;
 }
 
 #header {

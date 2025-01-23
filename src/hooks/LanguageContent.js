@@ -29,6 +29,11 @@ export const languages = {
       "<p>A Front-End homepage website that showcases Frodo's portfolio. <br/> Made with plain HTML and CSS. </p>",
     project6Title: "Battleship",
     project6Description: "<p>A Front-End game of Battleship. <br/> Made with plain HTML, JS, and CSS. </p>",
+    project7Title: "Christmas Store",
+    project7Description:
+      "<p>A responsive Christmas website with animations, Interactivity, dark/light mode, and more! <br/> Made with React.</p>",
+    project8Title: "Battleship",
+    project8Description: "<p>A Front-End game of Battleship. <br/> Made with plain HTML, JS, and CSS. </p>",
     otherProjs: "See my other projects on",
     contactMe: "Interested in working with me? Send me an email",
     contactMe2: "Or contact me on my social media",
@@ -71,6 +76,11 @@ export const languages = {
     project5Description: "<p>Um site Front-End com o portfólio do Frodo. <br/> Feito com apenas HTML e CSS. </p>",
     project6Title: "Batalha Naval",
     project6Description: "<p>Um jogo de Batalha Naval Front-End. <br/> Feito com apenas HTML, JS, e CSS. </p>",
+    project7Title: "Loja Natalina",
+    project7Description:
+      "<p>Um site de Natal responsivo com animações, interatividade, modo escuro/claro e muito mais! <br/> Feito com React.</p>",
+    project8Title: "Battleship",
+    project8Description: "<p>A Front-End game of Battleship. <br/> Made with plain HTML, JS, and CSS. </p>",
     otherProjs: "Veja os meus outros projetos no",
     contactMe: "Interessado em trabalhar comigo? Me mande um email",
     contactMe2: "Ou me contate pelas mídias digitais",

@@ -9,6 +9,27 @@ function Projects() {
       <div className="grid grid-cols-1 gap-16 self-center mt-10 md:grid-cols-2">
         <div className="border-2 border-blue-600 border-solid overflow-hidden">
           <img
+            src="/imgs/projects/christmasstore.png"
+            alt="Christmas store"
+            className="transition-transform duration-300 ease-in-out hover:scale-105 will-change-transform"
+          />
+          <div className="p-4 flex flex-col gap-3">
+            <div className="flex items-center gap-3">
+              <h3 className="mr-auto  font-semibold">{text.project7Title}</h3>
+              <a href="https://github.com/AndreiFlau/Responsive-Christmas-Website">
+                <i className="devicon-github-original colored"></i>
+              </a>
+              <a href="https://hohohomerrychristmas.vercel.app/">
+                <svg className="">
+                  <use xlinkHref="#redirect"></use>
+                </svg>
+              </a>
+            </div>
+            <TrustedHtml html={text.project7Description} />
+          </div>
+        </div>
+        <div className="border-2 border-blue-600 border-solid overflow-hidden">
+          <img
             src="/imgs/blogimg.png"
             alt="Picture of the blog homepage"
             className="transition-transform duration-300 ease-in-out hover:scale-105 will-change-transform"
@@ -110,27 +131,6 @@ function Projects() {
               </a>
             </div>
             <TrustedHtml html={text.project5Description} />
-          </div>
-        </div>
-        <div className="border-2 border-blue-600 border-solid overflow-hidden">
-          <img
-            src="/imgs/battleshipscreenshot.png"
-            alt="Picture of my battleship game"
-            className="transition-transform duration-300 ease-in-out hover:scale-105 will-change-transform"
-          />
-          <div className="p-4 flex flex-col gap-3">
-            <div className="flex items-center gap-3">
-              <h3 className="mr-auto  font-semibold">{text.project6Title}</h3>
-              <a href="https://github.com/AndreiFlau/Project---Battleship">
-                <i className="devicon-github-original colored"></i>
-              </a>
-              <a href="https://andreiflau.github.io/Project---Battleship/">
-                <svg className="">
-                  <use xlinkHref="#redirect"></use>
-                </svg>
-              </a>
-            </div>
-            <TrustedHtml html={text.project6Description} />
           </div>
         </div>
       </div>
