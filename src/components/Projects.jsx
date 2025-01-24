@@ -30,6 +30,27 @@ function Projects() {
         </div>
         <div className="border-2 border-blue-600 border-solid overflow-hidden">
           <img
+            src="/imgs/projects/highlanding.webp"
+            alt="landing page"
+            className="transition-transform duration-300 ease-in-out hover:scale-105 will-change-transform"
+          />
+          <div className="p-4 flex flex-col gap-3">
+            <div className="flex items-center gap-3">
+              <h3 className="mr-auto  font-semibold">{text.project8Title}</h3>
+              <a href="https://github.com/AndreiFlau/Project---Homepage">
+                <i className="devicon-github-original colored"></i>
+              </a>
+              <a href="https://andreiflau.github.io/Project---Homepage/">
+                <svg className="">
+                  <use xlinkHref="#redirect"></use>
+                </svg>
+              </a>
+            </div>
+            <TrustedHtml html={text.project8Description} />
+          </div>
+        </div>
+        <div className="border-2 border-blue-600 border-solid overflow-hidden">
+          <img
             src="/imgs/blogimg.png"
             alt="Picture of the blog homepage"
             className="transition-transform duration-300 ease-in-out hover:scale-105 will-change-transform"
@@ -110,27 +131,6 @@ function Projects() {
               </a>
             </div>
             <TrustedHtml html={text.project4Description} />
-          </div>
-        </div>
-        <div className="border-2 border-blue-600 border-solid overflow-hidden">
-          <img
-            src="/imgs/homepage.png"
-            alt="Picture of Frodo's homepage"
-            className="transition-transform duration-300 ease-in-out hover:scale-105 will-change-transform"
-          />
-          <div className="p-4 flex flex-col gap-3">
-            <div className="flex items-center gap-3">
-              <h3 className="mr-auto  font-semibold">{text.project5Title}</h3>
-              <a href="https://github.com/AndreiFlau/Project---Homepage">
-                <i className="devicon-github-original colored"></i>
-              </a>
-              <a href="https://andreiflau.github.io/Project---Homepage/">
-                <svg className="">
-                  <use xlinkHref="#redirect"></use>
-                </svg>
-              </a>
-            </div>
-            <TrustedHtml html={text.project5Description} />
           </div>
         </div>
       </div>
