@@ -9,6 +9,27 @@ function Projects() {
       <div className="grid grid-cols-1 gap-16 self-center mt-10 md:grid-cols-2">
         <div className="border-2 border-blue-600 border-solid overflow-hidden">
           <img
+            src="/imgs/projects/dashboard.png"
+            alt="Picture of the dashboard"
+            className="transition-transform duration-300 ease-in-out hover:scale-105 will-change-transform"
+          />
+          <div className="p-4 flex flex-col gap-3">
+            <div className="flex items-center gap-3">
+              <h3 className="mr-auto  font-semibold">{text.project9Title}</h3>
+              <a href="https://github.com/AndreiFlau/Waffles-NewsCase-Frontend">
+                <i className="devicon-github-original colored"></i>
+              </a>
+              <a href="https://waffles-news-case-frontend.vercel.app/">
+                <svg className="">
+                  <use xlinkHref="#redirect"></use>
+                </svg>
+              </a>
+            </div>
+            <TrustedHtml html={text.project9Description} />
+          </div>
+        </div>
+        <div className="border-2 border-blue-600 border-solid overflow-hidden">
+          <img
             src="/imgs/projects/christmasstore.png"
             alt="Christmas store"
             className="transition-transform duration-300 ease-in-out hover:scale-105 will-change-transform"
@@ -89,27 +110,6 @@ function Projects() {
               </a>
             </div>
             <TrustedHtml html={text.project2Description} />
-          </div>
-        </div>
-        <div className="border-2 border-blue-600 border-solid overflow-hidden">
-          <img
-            src="/imgs/pokemon.png"
-            alt="Picture of the pokémon memory game"
-            className="transition-transform duration-300 ease-in-out hover:scale-105 will-change-transform"
-          />
-          <div className="p-4 flex flex-col gap-3">
-            <div className="flex items-center gap-3">
-              <h3 className="mr-auto  font-semibold">{text.project3Title}</h3>
-              <a href="https://github.com/AndreiFlau/PokemonMemoryCard">
-                <i className="devicon-github-original colored"></i>
-              </a>
-              <a href="https://pokemon-memory-card-nu.vercel.app/">
-                <svg className="">
-                  <use xlinkHref="#redirect"></use>
-                </svg>
-              </a>
-            </div>
-            <TrustedHtml html={text.project3Description} />
           </div>
         </div>
         <div className="border-2 border-blue-600  border-solid overflow-hidden">

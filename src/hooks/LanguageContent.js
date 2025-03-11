@@ -34,6 +34,9 @@ export const languages = {
       "<p>A responsive Christmas website with animations, Interactivity, dark/light mode, and more! <br/> Made with React.</p>",
     project8Title: "High-Landing",
     project8Description: "<p>A modern, responsive, and interactive landing page. <br/> Made with plain HTML, JS, and CSS.</p>",
+    project9Title: "Dashboard",
+    project9Description:
+      "<p>A stats dashboard made for a newsletter. It has pages for both a users and admins. <br/> Made with React, Tailwind, and Express.</p>",
     otherProjs: "See my other projects on",
     contactMe: "Interested in working with me? Send me an email",
     contactMe2: "Or contact me on my social media",
@@ -63,7 +66,7 @@ export const languages = {
     myProjects: "Meus Projetos",
     project1Title: "Blog",
     project1Description:
-      "<p>Um blog Full-Stack que deixa o usuário criar uma conta, ler os blogs postados, comentar, e muito mais! <br/> Feito com Express, React, e Prisma. </p>",
+      "<p>Um blog Full-Stack que deixa o usuário criar uma conta, ler os blogs postados, comentar, e muito mais! <br/> Feito com Express, React e Prisma. </p>",
     project2Title: "Loja Virtual",
     project2Description:
       "<p>Uma loja Front-End que deixa o usuário explorar e comprar items fictícios. <br/> Feito com React. </p>",
@@ -75,12 +78,15 @@ export const languages = {
     project5Title: "Portfólio",
     project5Description: "<p>Um site Front-End com o portfólio do Frodo. <br/> Feito com apenas HTML e CSS. </p>",
     project6Title: "Batalha Naval",
-    project6Description: "<p>Um jogo de Batalha Naval Front-End. <br/> Feito com apenas HTML, JS, e CSS. </p>",
+    project6Description: "<p>Um jogo de Batalha Naval Front-End. <br/> Feito com apenas HTML, JS e CSS. </p>",
     project7Title: "Loja Natalina",
     project7Description:
       "<p>Um site de Natal responsivo com animações, interatividade, modo escuro/claro e muito mais! <br/> Feito com React.</p>",
     project8Title: "High-Landing",
-    project8Description: "<p>Uma landing page moderna, responsiva e interativa. <br/> Feito com apenas HTML, JS, e CSS.</p>",
+    project8Description: "<p>Uma landing page moderna, responsiva e interativa. <br/> Feito com apenas HTML, JS e CSS.</p>",
+    project9Title: "Dashboard",
+    project9Description:
+      "<p>Um dashboard de estatísticas para um newsletter. Há uma área para administradores e outra para usuários. <br/> Feito com React, Tailwind e Express.</p>",
     otherProjs: "Veja os meus outros projetos no",
     contactMe: "Interessado em trabalhar comigo? Me mande um email",
     contactMe2: "Ou me contate pelas mídias digitais",
