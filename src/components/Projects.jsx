@@ -58,10 +58,10 @@ function Projects() {
           <div className="p-4 flex flex-col gap-3">
             <div className="flex items-center gap-3">
               <h3 className="mr-auto  font-semibold">{text.project8Title}</h3>
-              <a href="https://github.com/AndreiFlau/Project---Homepage">
+              <a href="https://github.com/AndreiFlau/High-Landing">
                 <i className="devicon-github-original colored"></i>
               </a>
-              <a href="https://andreiflau.github.io/Project---Homepage/">
+              <a href="https://andreiflau.github.io/High-Landing/">
                 <svg className="">
                   <use xlinkHref="#redirect"></use>
                 </svg>
