@@ -9,13 +9,70 @@ function Projects() {
       <div className="grid grid-cols-1 gap-16 self-center mt-10 md:grid-cols-2">
         <div className="border-2 border-blue-600 border-solid overflow-hidden">
           <img
+            src="/imgs/projects/petsgotrade.png"
+            alt="Pets Go Trade website"
+            className="transition-transform duration-300 ease-in-out hover:scale-105 will-change-transform"
+          />
+          <div className="p-4 flex flex-col gap-3">
+            <div className="flex items-center gap-3">
+              <h3 className="mr-auto font-semibold">{text.project10Title}</h3>
+              <a href="https://petsgotrade.com/">
+                <svg className="">
+                  <use xlinkHref="#redirect"></use>
+                </svg>
+              </a>
+            </div>
+            <TrustedHtml html={text.project10Description} />
+          </div>
+        </div>
+
+        <div className="border-2 border-blue-600 border-solid overflow-hidden">
+          <img
+            src="/imgs/projects/dronestore.png"
+            alt="Drone Store"
+            className="transition-transform duration-300 ease-in-out hover:scale-105 will-change-transform"
+          />
+          <div className="p-4 flex flex-col gap-3">
+            <div className="flex items-center gap-3">
+              <h3 className="mr-auto font-semibold">{text.project12Title}</h3>
+              <a href="https://czech-test.netlify.app/">
+                <svg className="">
+                  <use xlinkHref="#redirect"></use>
+                </svg>
+              </a>
+            </div>
+            <TrustedHtml html={text.project12Description} />
+          </div>
+        </div>
+
+        <div className="border-2 border-blue-600 border-solid overflow-hidden">
+          <img
+            src="/imgs/projects/rafael.png"
+            alt="Rafael's Portfolio"
+            className="transition-transform duration-300 ease-in-out hover:scale-105 will-change-transform"
+          />
+          <div className="p-4 flex flex-col gap-3">
+            <div className="flex items-center gap-3">
+              <h3 className="mr-auto font-semibold">{text.project11Title}</h3>
+              <a href="https://rafaelgoto.vercel.app/">
+                <svg className="">
+                  <use xlinkHref="#redirect"></use>
+                </svg>
+              </a>
+            </div>
+            <TrustedHtml html={text.project11Description} />
+          </div>
+        </div>
+
+        <div className="border-2 border-blue-600 border-solid overflow-hidden">
+          <img
             src="/imgs/projects/dashboard.png"
             alt="Picture of the dashboard"
             className="transition-transform duration-300 ease-in-out hover:scale-105 will-change-transform"
           />
           <div className="p-4 flex flex-col gap-3">
             <div className="flex items-center gap-3">
-              <h3 className="mr-auto  font-semibold">{text.project9Title}</h3>
+              <h3 className="mr-auto font-semibold">{text.project9Title}</h3>
               <a href="https://github.com/AndreiFlau/Waffles-NewsCase-Frontend">
                 <i className="devicon-github-original colored"></i>
               </a>
@@ -28,6 +85,7 @@ function Projects() {
             <TrustedHtml html={text.project9Description} />
           </div>
         </div>
+
         <div className="border-2 border-blue-600 border-solid overflow-hidden">
           <img
             src="/imgs/projects/christmasstore.png"
@@ -36,7 +94,7 @@ function Projects() {
           />
           <div className="p-4 flex flex-col gap-3">
             <div className="flex items-center gap-3">
-              <h3 className="mr-auto  font-semibold">{text.project7Title}</h3>
+              <h3 className="mr-auto font-semibold">{text.project7Title}</h3>
               <a href="https://github.com/AndreiFlau/Responsive-Christmas-Website">
                 <i className="devicon-github-original colored"></i>
               </a>
@@ -49,6 +107,7 @@ function Projects() {
             <TrustedHtml html={text.project7Description} />
           </div>
         </div>
+
         <div className="border-2 border-blue-600 border-solid overflow-hidden">
           <img
             src="/imgs/projects/highlanding.webp"
@@ -57,7 +116,7 @@ function Projects() {
           />
           <div className="p-4 flex flex-col gap-3">
             <div className="flex items-center gap-3">
-              <h3 className="mr-auto  font-semibold">{text.project8Title}</h3>
+              <h3 className="mr-auto font-semibold">{text.project8Title}</h3>
               <a href="https://github.com/AndreiFlau/High-Landing">
                 <i className="devicon-github-original colored"></i>
               </a>
@@ -68,69 +127,6 @@ function Projects() {
               </a>
             </div>
             <TrustedHtml html={text.project8Description} />
-          </div>
-        </div>
-        <div className="border-2 border-blue-600 border-solid overflow-hidden">
-          <img
-            src="/imgs/blogimg.png"
-            alt="Picture of the blog homepage"
-            className="transition-transform duration-300 ease-in-out hover:scale-105 will-change-transform"
-          />
-          <div className="p-4 flex flex-col gap-3">
-            <div className="flex items-center gap-3 ">
-              <h3 className="mr-auto  font-semibold">{text.project1Title}</h3>
-              <a href="https://github.com/AndreiFlau/Project---Blog-Api-Frontend">
-                <i className="devicon-github-original colored"></i>
-              </a>
-              <a href="https://project-blog-api-frontend.vercel.app/">
-                <svg className="">
-                  <use xlinkHref="#redirect"></use>
-                </svg>
-              </a>
-            </div>
-            <TrustedHtml html={text.project1Description} />
-          </div>
-        </div>
-        <div className="border-2 border-blue-600 border-solid overflow-hidden">
-          <img
-            src="/imgs/store.png"
-            alt="Picture of the store homepage"
-            className="transition-transform duration-300 ease-in-out hover:scale-105 will-change-transform"
-          />
-          <div className="p-4 flex flex-col gap-3">
-            <div className="flex items-center gap-3">
-              <h3 className="mr-auto  font-semibold">{text.project2Title}</h3>
-              <a href="https://github.com/AndreiFlau/Project---Shopping-Cart">
-                <i className="devicon-github-original colored"></i>
-              </a>
-              <a href="https://project-shopping-cart-lime.vercel.app/">
-                <svg className="">
-                  <use xlinkHref="#redirect"></use>
-                </svg>
-              </a>
-            </div>
-            <TrustedHtml html={text.project2Description} />
-          </div>
-        </div>
-        <div className="border-2 border-blue-600  border-solid overflow-hidden">
-          <img
-            src="/imgs/noodledrive.png"
-            alt="Picture of my google drive clone"
-            className="transition-transform duration-300 ease-in-out hover:scale-105 will-change-transform"
-          />
-          <div className="p-4 flex flex-col gap-3">
-            <div className="flex items-center gap-3">
-              <h3 className="mr-auto  font-semibold">{text.project4Title}</h3>
-              <a href="https://github.com/AndreiFlau/Project---File-Uploader">
-                <i className="devicon-github-original colored"></i>
-              </a>
-              <a href="https://project-file-uploader.onrender.com/">
-                <svg className="">
-                  <use xlinkHref="#redirect"></use>
-                </svg>
-              </a>
-            </div>
-            <TrustedHtml html={text.project4Description} />
           </div>
         </div>
       </div>

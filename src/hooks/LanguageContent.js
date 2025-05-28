@@ -37,6 +37,15 @@ export const languages = {
     project9Title: "Dashboard",
     project9Description:
       "<p>A stats dashboard made for a newsletter. It has pages for both a users and admins. <br/> Made with React, Tailwind, and Express.</p>",
+    project10Title: "Pets Go! Trade",
+    project10Description:
+      "<p>A website about the Roblox game Pets Go, featuring game information and trading. <br/> Made with Next.js, Tailwind CSS, and JSON.</p>",
+    project11Title: "Rafael's Portfolio",
+    project11Description:
+      "<p>A portfolio website showcasing a backend developer's work and skills. <br/> Made with React and CSS.</p>",
+    project12Title: "Drone Store",
+    project12Description:
+      "<p>A single page store for drone identification services. <br/> Made with Next.js, CSS Modules, and PostgreSQL.</p>",
     otherProjs: "See my other projects on",
     contactMe: "Interested in working with me? Send me an email",
     contactMe2: "Or contact me on my social media",
@@ -87,6 +96,15 @@ export const languages = {
     project9Title: "Dashboard",
     project9Description:
       "<p>Um dashboard de estatísticas para um newsletter. Há uma área para administradores e outra para usuários. <br/> Feito com React, Tailwind e Express.</p>",
+    project10Title: "Pets Go! Trade",
+    project10Description:
+      "<p>Um site sobre o jogo Pets Go do Roblox, com informações do jogo e sistema de trocas. <br/> Feito com Next.js, Tailwind CSS e JSON.</p>",
+    project11Title: "Portfólio do Rafael",
+    project11Description:
+      "<p>Um site de portfólio mostrando o trabalho e habilidades de um desenvolvedor backend. <br/> Feito com React e CSS.</p>",
+    project12Title: "Loja de Drones",
+    project12Description:
+      "<p>Uma loja single page para serviços de identificação de drones. <br/> Feito com Next.js, CSS Modules e PostgreSQL.</p>",
     otherProjs: "Veja os meus outros projetos no",
     contactMe: "Interessado em trabalhar comigo? Me mande um email",
     contactMe2: "Ou me contate pelas mídias digitais",
