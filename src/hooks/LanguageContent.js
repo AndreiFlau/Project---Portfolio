@@ -45,7 +45,7 @@ export const languages = {
       "<p>A portfolio website showcasing a backend developer's work and skills. <br/> Made with React and CSS.</p>",
     project12Title: "Drone Store",
     project12Description:
-      "<p>A single page store for drone identification services. <br/> Made with Next.js, CSS Modules, and PostgreSQL.</p>",
+      "<p>A single page store for drone identification services. <br/> Made with Next.js, CSS Modules, and MySql.</p>",
     otherProjs: "See my other projects on",
     contactMe: "Interested in working with me? Send me an email",
     contactMe2: "Or contact me on my social media",
@@ -104,7 +104,7 @@ export const languages = {
       "<p>Um site de portfólio mostrando o trabalho e habilidades de um desenvolvedor backend. <br/> Feito com React e CSS.</p>",
     project12Title: "Loja de Drones",
     project12Description:
-      "<p>Uma loja single page para serviços de identificação de drones. <br/> Feito com Next.js, CSS Modules e PostgreSQL.</p>",
+      "<p>Uma loja single page para serviços de identificação de drones. <br/> Feito com Next.js, CSS Modules e MySql.</p>",
     otherProjs: "Veja os meus outros projetos no",
     contactMe: "Interessado em trabalhar comigo? Me mande um email",
     contactMe2: "Ou me contate pelas mídias digitais",
